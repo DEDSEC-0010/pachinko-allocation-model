@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pachinko-allocation-model"
+version = "0.1.0"
+description = "A probabilistic topic modeling approach inspired by Pachinko Allocation Model"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.6.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "mypy"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/pachinko-allocation-model"
+
+[tool.setuptools]
+packages = ["pachinko_allocation_model"]
+package-dir = {"": "src"}
