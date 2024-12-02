@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pachinko-allocation-model",
-    version="0.1.3",
+    version="0.2.1",
     author="Josten S Cheeran",
     author_email="jostencheeran@gmail.com",
     description="A probabilistic topic modeling approach inspired by Pachinko Allocation Model",
@@ -11,7 +11,7 @@ setup(
     url="https://github.com/dedsec-0010/pachinko-allocation-model",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=["numpy>=1.20.0", "scipy>=1.6.0"],
+    install_requires=["numpy>=1.26.4", "scipy>=1.14.1"],
     extras_require={"dev": ["pytest", "black", "mypy"]},
     classifiers=[
         "Programming Language :: Python :: 3",
