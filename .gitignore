@@ -1,0 +1,19 @@
+# Python build and distribution
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
